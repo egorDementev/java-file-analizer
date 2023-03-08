@@ -1,0 +1,40 @@
+.header {
+    -fx-text-fill: #BC4749;
+}
+
+.parseButton {
+    -fx-text-fill: #F2E8CF;
+    -fx-background-color: #BC4749;
+    -fx-background-radius: 15;
+}
+
+.text1 {
+    -fx-text-fill: #BC4749;
+}
+
+.text2 {
+    -fx-text-fill: #BC4749;
+}
+
+.inputFileNameField {
+    -fx-background-color: #F2E8CF;
+    -fx-border-color: #BC4749;
+    -fx-border-radius: 15;
+    -fx-text-fill: #BC4749;
+}
+
+.outputFileNameField {
+    -fx-background-color: #F2E8CF;
+    -fx-border-color: #BC4749;
+    -fx-border-radius: 15;
+    -fx-text-fill: #BC4749;
+}
+
+.mainPane {
+    -fx-background-color: #F2E8CF;
+    -fx-border-radius: 30;
+}
+
+.errorText {
+    -fx-text-fill: #BC4749;
+}

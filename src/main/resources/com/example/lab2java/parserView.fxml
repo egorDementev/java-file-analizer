@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="mainPane" stylesheets="@style/parserViewStyle.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2java.ParserController">
+   <Button fx:id="parseButton" layoutX="58.0" layoutY="308.0" mnemonicParsing="false" onAction="#onParseButtonClicked" prefHeight="40.0" prefWidth="284.0" styleClass="parseButton" text="Parse it!">
+      <font>
+         <Font name="SansSerif Regular" size="20.0" />
+      </font></Button>
+   <Label fx:id="header" layoutX="58.0" layoutY="53.0" prefHeight="49.0" prefWidth="284.0" styleClass="header" text="TEXT PARSER">
+      <font>
+         <Font name="SansSerif Bold" size="40.0" />
+      </font>
+   </Label>
+   <Label fx:id="text1" alignment="CENTER" layoutX="58.0" layoutY="132.0" prefHeight="18.0" prefWidth="284.0" styleClass="text1" text="Enter input file name">
+      <font>
+         <Font name="SansSerif Regular" size="15.0" />
+      </font>
+   </Label>
+   <Label fx:id="text2" alignment="CENTER" layoutX="58.0" layoutY="220.0" prefHeight="18.0" prefWidth="284.0" styleClass="text2" text="Enter output file name">
+      <font>
+         <Font name="SansSerif Regular" size="15.0" />
+      </font>
+   </Label>
+   <TextField fx:id="inputFileNameField" alignment="CENTER" layoutX="58.0" layoutY="150.0" prefHeight="40.0" prefWidth="284.0" styleClass="inputFileNameField" text="input.txt">
+      <font>
+         <Font name="SansSerif Regular" size="20.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="outputFileNameField" alignment="CENTER" layoutX="58.0" layoutY="238.0" prefHeight="40.0" prefWidth="284.0" styleClass="outputFileNameField" text="output.txt">
+      <font>
+         <Font name="SansSerif Regular" size="20.0" />
+      </font>
+   </TextField>
+   <Label fx:id="errorText" alignment="CENTER" layoutX="2.0" layoutY="359.0" prefHeight="18.0" prefWidth="400.0" styleClass="errorText" />
+</AnchorPane>
